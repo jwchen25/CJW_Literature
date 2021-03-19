@@ -1,8 +1,8 @@
-# 化学标志符(Chemical Identifier)获得和转换
+# 化学标识符(Chemical Identifier)获得和转换
 ### 
 ## 一、通过在线的网络服务器
 ### 1. Chemical Identifier Resolver
-来自美国国立卫生研究院的[NCI/CADD group](https://cactus.nci.nih.gov/)，主页为(https://cactus.nci.nih.gov/chemical/structure)。可以通过该服务器的URL API，快速批量的获取化学标志符。
+来自美国国立卫生研究院的[NCI/CADD group](https://cactus.nci.nih.gov/)，主页为(https://cactus.nci.nih.gov/chemical/structure)。可以通过该服务器的URL API，快速批量的获取化学标识符。
 
 URL API scheme:
 ```
@@ -41,7 +41,7 @@ print(response.text)  # InChIKey=HSFWRNGVRCDJHI-UHFFFAOYSA-N
 
 ### 2. OPSIN web service
 主页：(https://opsin.ch.cam.ac.uk/)，
-由剑桥大学分子信息学中心维护，这个网站可以将IUPAC命名转换为多种化学描述符，使用教程详见(https://opsin.ch.cam.ac.uk/instructions.html)。
+由剑桥大学分子信息学中心维护，这个网站可以将IUPAC命名转换为多种化学标识符，使用教程详见(https://opsin.ch.cam.ac.uk/instructions.html)。
 
 **通过python的网络请求(request):**
 ```python
